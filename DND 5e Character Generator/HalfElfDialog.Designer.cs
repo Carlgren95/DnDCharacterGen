@@ -46,7 +46,6 @@
 			// 
 			// btnConfirm
 			// 
-			this.btnConfirm.Enabled = false;
 			this.btnConfirm.Location = new System.Drawing.Point(218, 36);
 			this.btnConfirm.Name = "btnConfirm";
 			this.btnConfirm.Size = new System.Drawing.Size(75, 23);
@@ -57,7 +56,6 @@
 			// 
 			// btnCancel
 			// 
-			this.btnCancel.Enabled = false;
 			this.btnCancel.Location = new System.Drawing.Point(299, 36);
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.Size = new System.Drawing.Size(75, 23);
@@ -77,7 +75,7 @@
             "Wis"});
 			this.cbxAbility1.Location = new System.Drawing.Point(12, 38);
 			this.cbxAbility1.Name = "cbxAbility1";
-			this.cbxAbility1.Size = new System.Drawing.Size(36, 21);
+			this.cbxAbility1.Size = new System.Drawing.Size(52, 21);
 			this.cbxAbility1.TabIndex = 14;
 			// 
 			// cbxAbility2
@@ -89,9 +87,9 @@
             "Con",
             "Int",
             "Wis"});
-			this.cbxAbility2.Location = new System.Drawing.Point(54, 38);
+			this.cbxAbility2.Location = new System.Drawing.Point(70, 38);
 			this.cbxAbility2.Name = "cbxAbility2";
-			this.cbxAbility2.Size = new System.Drawing.Size(36, 21);
+			this.cbxAbility2.Size = new System.Drawing.Size(52, 21);
 			this.cbxAbility2.TabIndex = 15;
 			// 
 			// HalfElfDialog
@@ -106,6 +104,7 @@
 			this.Controls.Add(this.lblHalfElfPrompt);
 			this.Name = "HalfElfDialog";
 			this.Text = "Half Elf Ability Score Bonuses";
+			this.TopMost = true;
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
